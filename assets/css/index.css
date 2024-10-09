@@ -1,0 +1,154 @@
+* {
+  padding: 0px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html,
+body {
+  color: #353535;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.31;
+  position: relative;
+  height: 900px;
+}
+
+.header {
+  width: 100wh;
+  height: 70px;
+  background-color: rgb(155, 154, 154);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top:0px;
+  left: 0px;
+}
+
+.header-page-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 166px;
+  height: 47px;
+  cursor: pointer;
+}
+
+
+.header-logo img {
+  max-width: 30px;
+  height: auto;
+  margin-right: 12px;
+}
+
+.header-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 555px;
+  height: 45px;
+  padding: px, 20px;
+  border-radius: 5px;
+  background: #f5f5f5;
+  border: 1px solid #e4e7eb;
+  margin-right: 50px;
+}
+
+.header-search-text input {
+  width: 482px;
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: #0f0f10;
+}
+
+.fa-microphone {
+  width: 24px;
+  height: 24px;
+  color: #323f4b;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: -5px;
+}
+
+.fa-microphone:hover,
+.fa-envelope:hover,
+.fa-bell:hover,
+.fa-caret-down:hover {
+  color: #f46119;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-profile a,
+.header-profile li {
+  color: #1f2933;
+}
+.header-page-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.choose-language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language-edit a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+  color: #1f2933;
+}
+
+.language-edit a:hover,
+.header-profile a:hover {
+  color: #f46119;
+}
+
+.page-profile {
+  margin-left: 15px;
+}
+
+.flag {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.action-btn {
+  display: flex;
+  position: relative;
+  flex: 0 0 24px;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: #323f4b;
+  font-size: 24px;
+  transition: all 0.25s linear;
+  margin: 0px 10px;
+}
+
+.profile-img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.fa-caret-down {
+  margin: 0px 2px;
+}
